@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { useReducer } from 'react';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<div className='calculator-grid'>
+  <div className='output'>
+    <div className='previous-operand'>123 +</div>
+    <div className='current-operand'>456</div>
+  </div>
+  <button className='span-two'>AC</button>
+  <button>DEL</button>
+  <button data-operation>`-`</button>
+  <button data-number>1</button>
+  <button data-number>2</button>
+  <button data-number>3</button>
+  <button data-operation>*</button>
+  <button data-number>4</button>
+  <button data-number>5</button>
+  <button>6</button>
+  <button data-operation>+</button>
+  <button>7</button>
+  <button>8</button>
+  <button>9</button>
+  <button data-operation>-</button>
+  <button>.</button>
+  <button>0</button>
+  <button className='span-two'>=</button>
+</div>
     </div>
   );
 }
