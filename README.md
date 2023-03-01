@@ -24,7 +24,9 @@ EVALUATE: Evaluates the expression and updates the display with the result
 
 Available components
 
-The app has two components: DigitButton and OperationButton. The DigitButton component renders a button with a digit on it and dispatches the ADD_DIGIT action when clicked. The OperationButton component renders a button with an operation on it (+, -, *, /) and dispatches the CHOOSE_OPERATION action when clicked.
+The app has two components: DigitButton and OperationButton. 
+The DigitButton component renders a button with a digit on it and dispatches the ADD_DIGIT action when clicked. 
+The OperationButton component renders a button with an operation on it (+, -, *, /) and dispatches the CHOOSE_OPERATION action when clicked.
 
 Other files
 
