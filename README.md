@@ -13,9 +13,13 @@ Available actions
 The app supports the following actions:
 
 ADD_DIGIT: Adds a digit to the current operand
+
 CHOOSE_OPERATION: Chooses an operation (+, -, *, /) to perform
+
 CLEAR: Clears the current operand, previous operand, and operation
+
 DELETE_DIGIT: Deletes the last digit of the current operand
+
 EVALUATE: Evaluates the expression and updates the display with the result
 
 Available components
